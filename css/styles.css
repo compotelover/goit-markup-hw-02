@@ -108,6 +108,11 @@ p {
     color: #434455;
 }
 
+.address-link:hover,
+.address-link:focus {
+    color: #404bbf;
+}
+
 ul {
     list-style-type: none;
 }
@@ -158,4 +163,31 @@ ul {
 
 .li-section-third {
     background-color: #FFFFFF;
+}
+
+.heading-portfolio {
+    color: #2E2F42;
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.p-port {
+    line-height: 1.5;
+}
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.logo-studio-footer {
+    color: #f4f4f4;
+}
+
+.p-footer {
+    line-height: 1.5;
+    color: #F4F4FD;
 }
