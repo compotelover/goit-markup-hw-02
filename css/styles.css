@@ -44,6 +44,7 @@ a {
 
 .p-team {
     text-align: center;
+    line-height: 1.5
 }
 
 p {
@@ -94,6 +95,13 @@ p {
 
 .header-address {
     font-style: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}
+
+.header-address:hover,
+.header-address:focus {
+    color: #404bbf;
 }
 
 .address-link {
@@ -146,4 +154,8 @@ ul {
 
 .section-third {
     background-color: #F4F4FD;
+}
+
+.li-section-third {
+    background-color: #FFFFFF;
 }
