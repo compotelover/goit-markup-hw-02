@@ -12,14 +12,14 @@ a {
     text-decoration: none;
 }
 
-h2 {
+.section-heading {
     color: #2E2F42;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
-    line-height: 0.9;
+    line-height: 1.11;
     letter-spacing: 0.72px;
     text-transform: capitalize;
 }
@@ -28,14 +28,18 @@ h2 {
     text-align: center;
 }
 
-h3 {
+.list-heading {
     color: #2E2F42;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
-    line-height: 0.8;
+    line-height: 1.2;
     letter-spacing: 0.4px;
+}
+
+.p-list {
+    line-height: 1.5
 }
 
 .p-team {
@@ -111,10 +115,6 @@ ul {
     letter-spacing: 1.12px;
 }
 
-.section-heading {
-    
-}
-
 .class-button {
     background-color: #4D5AE5;
     color: #FFFFFF;
@@ -142,4 +142,8 @@ ul {
 
 .section-first {
         background-color: #2E2F42;
+}
+
+.section-third {
+    background-color: #F4F4FD;
 }
