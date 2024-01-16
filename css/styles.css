@@ -100,7 +100,7 @@ ul {
     list-style-type: none;
 }
 
-.h1 {
+.section-heading-first {
     color: #FFF;
     text-align: center;
     font-family: 'Roboto', sans-serif;
@@ -109,6 +109,10 @@ ul {
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 1.12px;
+}
+
+.section-heading {
+    
 }
 
 .class-button {
@@ -125,10 +129,10 @@ ul {
 
 .class-button:hover,
 .class-button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
-.section-2 {
+.section-second {
     background-color: white;
 }
 
@@ -136,6 +140,6 @@ ul {
     background-color: white;
 }
 
-.section-1 {
+.section-first {
         background-color: #2E2F42;
 }
